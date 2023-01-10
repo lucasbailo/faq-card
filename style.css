@@ -19,6 +19,7 @@ body {
     background: linear-gradient(var(--Soft-violet), var(--Soft-blue));
     background-repeat: no-repeat;
     padding: 40% 5% 5% 5%;
+    height: 100vh;
 }
 
 
@@ -173,7 +174,7 @@ input:checked ~ label .image-class {
     }
 }
 
-@media screen and (min-width: 1360px) {
+@media screen and (min-width: 1440px) {
 
     body {
         padding: 10% 10%;
