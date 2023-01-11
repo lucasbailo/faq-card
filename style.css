@@ -56,7 +56,6 @@ body {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    overflow: hidden;
 }
 
 
@@ -180,15 +179,13 @@ input:checked ~ label .image-class {
         padding: 10% 10%;
         background: linear-gradient(var(--Soft-violet), var(--Soft-blue));
         background-repeat: no-repeat;
-        height: 100vh;
-        width: 100vw;
     }
 
     .card__container {
         border-radius: 2.5rem;
         flex-direction: row;
         gap: 3rem;
-        padding: 1rem 8rem 1rem 0;
+        padding: 3rem 8rem 3rem 0;
         align-items: center;
         box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px 10px;
         overflow: hidden;
@@ -215,8 +212,8 @@ input:checked ~ label .image-class {
     
     .image-desktop-shadow {
         position: absolute;
-        left: -30rem;
-        bottom: -3rem;
+        left: -29rem;
+        bottom: -12rem;
     }
 
     .card-images-mobile {
@@ -231,15 +228,15 @@ input:checked ~ label .image-class {
     .image-desktop-2 {
         position: relative;
         right: 8rem;
-        top: 6rem;
         width: 40rem;
     }
 
     .image-desktop-3 {
-        position: relative;
-        right: 8rem;
-        bottom: 13rem;
+        position: fixed;
+        left: 1rem;
+        bottom: 18rem;
         width: 15rem;
+        top: 18rem;
     }
 
     .card-title-text {
